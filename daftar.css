@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dee6f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container { /*mengubah tata letak logo dan tulisan diluar kolom*/
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px); 
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:  #365886;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2560b3;
+}
+
+#message {
+    margin-top: 15px;
+    text-align: center;
+    color: red;
+}
+
+img {
+    height: 45px;
+    width: 170px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+
+a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: #6dabff;
+}
+
+.create-account {
+    font-size: 12px;
+    text-align: center;
+}
