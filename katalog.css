@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background-image: url('/gambar/1.jpg'); 
+    background-image: url('1.jpg'); 
     background-size: cover;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.9);
     padding: 1rem;
