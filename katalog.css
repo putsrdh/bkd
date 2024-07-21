@@ -1,0 +1,217 @@
+body {
+    font-family:  "Montserrat", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-image: url('/gambar/1.jpg'); 
+    background-size: cover;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    opacity: 0.9;
+    color: #fff;
+    padding-bottom: 480px;
+    text-align: left;
+  }
+
+  nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 700px;
+ }
+
+ .profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 1240px;
+  margin-top: -50px;
+  filter: brightness(2);
+}
+ 
+ .logo img{
+     height: 45px;
+     width: 170px;
+     margin-left: 30px;
+ }
+ 
+ .nav-list a{
+     color: #f7f6f6;
+     text-decoration: none;
+     margin-right: 34px;
+     font-size: 24px;
+     font-weight: 530;
+     font-family:"Montserrat", Helvetica, sans-serif;
+ }
+ 
+ .nav-list a:hover {
+     color: #95b6ff;
+ }
+
+  main {
+    padding: 1rem;
+    
+  }
+  
+  .intro {
+    margin-top: 100px;
+    margin-right: 35px;
+    text-align: right;
+    font-size: large;
+  }
+
+  .intro2 {
+    margin-top: 30px;
+    margin-right: 35px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  .bike-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 120px;
+    height: 200px;
+  }
+  
+  .bike-item {
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+  }
+  
+  .bike-item img {
+    width: 200px;
+    height: 180px;
+  }
+
+ a button {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #95b6ff;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 1px;
+  }
+
+  a{
+    text-decoration: none; 
+  }
+
+  .button-sewa {
+    width: 50%;
+    margin-left: 48%;
+  }
+  
+  button:hover {
+    background-color: #dee6f1;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Menyusun tombol di tengah secara horizontal */
+    gap: 90px;/* Jarak antara tombol */
+  }
+
+  .button-container button {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px; /* Membuat sudut tombol menjadi bulat */
+    background-color: #95b6ff; /* Warna latar belakang tombol */
+    color: black; /* Warna teks tombol */
+  }
+
+  .button-container button:hover {
+    background-color: #dee6f1; /* Warna latar belakang tombol saat hover */
+  }
+
+  footer {
+    background-color: #dee6f1;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 5rem;
+    position: bottom;
+
+  }
+   
+  .foot{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about, .sosial-media, .thanks-to {
+    flex: 1;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.pay, .sosmed {
+  text-align: center;
+}
+
+.pay img {
+  width: 69px;
+  height: 45px;
+  margin-right: 5px;
+}
+
+.sosmed img {
+  width: 50px;
+  height: 45px;
+}
+
+.call img {
+  width: 40px;
+  height: 45px;
+}
+
+.about h3,
+.sosial-media h3,
+.thanks-to h3 {
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about p,
+.sosial-media p,
+.thanks-to p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.copyright p {
+    margin-bottom: -40px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+

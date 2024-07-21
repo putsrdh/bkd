@@ -1,0 +1,256 @@
+body {
+  font-family:  "Montserrat", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #dee6f1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 1rem;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* Menu toggle (burger icon) styles */
+.menu-toggle {
+margin-top: 5px;
+width: 30px;
+height: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+cursor: pointer;
+}
+
+.bar {
+margin-left: 20px;
+width: 95%;
+height: 3.9px;
+background-color: #8cb0ff;
+transition: all 0.3s;
+}
+
+.logo{
+width: 190px;
+height: 60px;
+margin-bottom: -50px;
+}
+
+/* Nav menu styles */
+.nav-menu {
+display: none;
+position: absolute;
+top: 10px;
+right: 10px;
+width: 200px;
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+overflow: hidden;
+margin-right: 1100px;
+}
+
+.nav-menu ul {
+list-style-type: none;
+}
+
+.nav-menu li {
+border-bottom: 1px solid #ddd;
+}
+
+.nav-menu li:last-child {
+border-bottom: none;
+}
+
+.nav-menu a {
+display: block;
+padding: 15px;
+color: #333;
+text-decoration: none;
+transition: background 0.3s;
+}
+
+.nav-menu a:hover {
+background-color: #f0f0f0;
+}
+
+/* Show nav menu when active */
+.nav-menu.active {
+display: block;
+}
+
+/* Rotate bars when menu is active */
+.menu-toggle.active .bar:nth-child(1) {
+transform: rotate(45deg) translateY(10px);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+transform: rotate(-45deg) translateY(-10px);
+}
+
+img{
+  width: 20%;
+  height: 10%;
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 20px;
+
+}
+
+form {
+  display: flex;
+  align-items: center;
+  display: grid;
+  gap: 20px;
+}
+
+input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+select{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.address {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #8cb0ff;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #589bf8;
+}
+
+footer {
+  background-color: #dee6f1;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  padding: 5rem;
+  position: bottom;
+
+}
+ 
+.foot{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about, .sosial-media, .thanks-to {
+  flex: 1;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+.payment {
+display: flex;
+justify-content: space-around;
+margin-top: 1rem;
+margin-bottom: 10px;
+height: 30px;
+}
+
+.pay, .sosmed {
+text-align: center;
+}
+
+.pay img {
+width: 69px;
+height: 45px;
+margin-right: 5px;
+}
+
+.sosmed img {
+width: 50px;
+height: 45px;
+}
+
+.call img {
+width: 40px;
+height: 45px;
+}
+
+.about h3,
+.sosial-media h3,
+.thanks-to h3 {
+  color: rgb(5, 5, 5);
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about p,
+.sosial-media p,
+.thanks-to p {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.copyright p {
+  margin-bottom: -40px;
+  margin-top: 50px;
+  font-size: 16px;
+}
